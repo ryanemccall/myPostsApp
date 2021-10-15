@@ -38,7 +38,7 @@ $primary-color: #0070f3;
   padding: 0;
   margin: 5em 0;
 
-  li {
+  & > li { //fixes the margin issue 
     margin-bottom: 3em;
     
     &:last-child {
@@ -68,23 +68,4 @@ $primary-color: #0070f3;
   line-height: 33px;
 }
 
-.formContent {
-  width: 100%;
-  font-size: 1.4em;
-  padding: .8em;
-  font-family: "Source Sans Pro", sans-serif;
-  min-height: 6em;
-  border: 2px solid #939191;
-  border-radius: 5px;
-  margin-bottom: 1em;
-}
-
-.formBtn {
-  background: #4948A7;
-  border-radius: 5px;
-  color: white;
-  border: 0;
-  padding: .6em 1em;
-  font-size: 1.1em;
-}
 
